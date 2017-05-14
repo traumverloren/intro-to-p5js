@@ -4,10 +4,10 @@ function setup() {
 }
 
 function draw() {
+  stroke(10, 30);
+
   fill(76, 112, 100);
   triangle(0, 768, 0, 666, 50, 768);
-
-  noStroke();
 
   fill(61, 65, 43);
   triangle(40, 740, 130, 632, 180, 759);
@@ -33,7 +33,7 @@ function draw() {
   stroke(1, 50);
   line(326, 610, 326, 730);
 
-  noStroke();
+  stroke(10, 30);
   fill(197, 206, 187);
   beginShape();
   vertex(0, 0);
@@ -49,6 +49,7 @@ function draw() {
   fill(173, 159, 132);
   ellipse(102, 102, 200, 200);
 
+  noStroke();
   fill(106, 147, 115);
   beginShape();
   vertex(80, 6);
@@ -60,6 +61,7 @@ function draw() {
   vertex(80, 0);
   endShape(CLOSE);
 
+  stroke(10, 30);
   fill(143, 151, 127);
   beginShape();
   vertex(213, 0);
@@ -91,7 +93,29 @@ function draw() {
   vertex(384, 67);
   endShape(CLOSE);
 
-  // vertex(600, 21);
+
+  fill(76, 144, 113);
+  beginShape();
+  vertex(593, 0);
+  vertex(606, 40);
+  vertex(681, 0);
+  vertex(595, 0);
+  endShape(CLOSE);
+
+  fill(68, 100, 75);
+  beginShape();
+  vertex(681, 0);
+  vertex(637, 27);
+  vertex(628, 0);
+  endShape(CLOSE);
+
+  fill(88, 137, 116);
+  beginShape();
+  vertex(615, 73);
+  vertex(606, 40);
+  vertex(681, 0);
+  vertex(730, 0);
+  endShape(CLOSE);
 
   fill(90, 128, 110);
   beginShape();
@@ -112,5 +136,44 @@ function draw() {
   vertex(384, 186);
   vertex(384, 67);
   endShape(CLOSE);
+
+  fill(84, 129, 101);
+  beginShape();
+  vertex(892, 0);
+  vertex(957, 213);
+  vertex(899, 198);
+  vertex(828, 0);
+  endShape(CLOSE);
+
+  fill(64, 120, 99);
+  beginShape();
+  vertex(892, 0);
+  vertex(932, 130);
+  vertex(973, 132);
+  vertex(930, 0);
+  endShape(CLOSE);
+
+  fill(50, 53, 42);
+  beginShape();
+  vertex(930, 0);
+  vertex(967, 0);
+  vertex(1024, 84);
+  vertex(1024, 130);
+  vertex(984, 135);
+  vertex(930, 408);
+  vertex(750, 420);
+  vertex(768, 316);
+  vertex(832, 400);
+  vertex(850, 316);
+  vertex(864, 333);
+  vertex(862, 250);
+  vertex(933, 300);
+  vertex(901, 201);
+  vertex(957, 213);
+  vertex(932, 130);
+  vertex(973, 132);
+  vertex(930, 0);
+  endShape(CLOSE);
+
 
 }
