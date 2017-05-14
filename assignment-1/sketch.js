@@ -79,6 +79,7 @@ function draw() {
   vertex(384, 67);
   endShape(CLOSE);
 
+  // big green shape at top middle
   fill(98, 149, 123);
   beginShape();
   vertex(384, 67);
@@ -153,6 +154,7 @@ function draw() {
   vertex(930, 0);
   endShape(CLOSE);
 
+  // big dark shape at top right
   fill(50, 53, 42);
   beginShape();
   vertex(930, 0);
@@ -166,14 +168,52 @@ function draw() {
   vertex(832, 400);
   vertex(850, 316);
   vertex(864, 333);
-  vertex(862, 250);
+  vertex(864, 250);
   vertex(933, 300);
-  vertex(901, 201);
+  vertex(899, 198);
   vertex(957, 213);
   vertex(932, 130);
   vertex(973, 132);
   vertex(930, 0);
   endShape(CLOSE);
 
+  fill(60, 74, 61);
+  beginShape();
+  vertex(936, 303);
+  vertex(924, 274);
+  vertex(866, 228);
+  vertex(864, 250);
+  vertex(936, 303);
+  endShape(CLOSE);
 
+  fill(93, 107, 90);
+  beginShape();
+  vertex(772, 154);
+  vertex(866, 228);
+  vertex(865, 333);
+  vertex(760, 213);
+  vertex(475, 234);
+  vertex(475, 196);
+  bezierVertex(475, 196, 498, 193, 519, 174);
+  vertex(519, 174);
+  vertex(772, 154);
+  endShape(CLOSE);
+
+  fill(68, 111, 91);
+  beginShape();
+  vertex(760, 213);
+  vertex(850, 316);
+  vertex(832, 400);
+  vertex(684, 214);
+  vertex(760, 213);
+  endShape(CLOSE);
+
+  fill(58, 101, 81);
+  beginShape();
+  vertex(768, 320);
+  vertex(750, 420);
+  vertex(633, 222);
+  vertex(684, 214);
+  vertex(768, 320);
+  endShape(CLOSE);
 }
