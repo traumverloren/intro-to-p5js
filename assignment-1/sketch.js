@@ -216,4 +216,72 @@ function draw() {
   vertex(684, 214);
   vertex(768, 320);
   endShape(CLOSE);
+
+  fill(70, 115, 95);
+  beginShape();
+  vertex(984, 135);
+  vertex(930, 408);
+  vertex(952, 399);
+  vertex(1005, 132);
+  vertex(984, 135);
+  endShape(CLOSE);
+
+  fill(83, 99, 90);
+  beginShape();
+  vertex(1005, 132);
+  vertex(951, 400);
+  vertex(976, 412);
+  vertex(1024, 258);
+  vertex(1024, 126);
+  vertex(1005, 132);
+  endShape(CLOSE);
+
+  fill(62, 75, 55);
+  beginShape();
+  vertex(1024, 258);
+  vertex(1024, 424);
+  vertex(976, 412);
+  vertex(1024, 258);
+  endShape(CLOSE);
+
+  fill(192, 186, 157);
+  beginShape();
+  vertex(1024, 768);
+  vertex(1024, 412);
+  vertex(980, 412);
+  vertex(980, 768);
+  vertex(1024, 768);
+  endShape(CLOSE);
+
+  fill(167, 154, 123);
+  beginShape();
+  vertex(980, 412);
+  vertex(980, 768);
+  vertex(945, 768);
+  vertex(940, 403);
+  vertex(951, 399);
+  vertex(980, 412);
+  endShape(CLOSE);
+
+  fill(119, 129, 112);
+  beginShape();
+  vertex(930, 402);
+  vertex(910, 402);
+  vertex(910, 721);
+  vertex(944, 733);
+  vertex(940, 402);
+  vertex(930, 402);
+  endShape(CLOSE);
+
+  fill(74, 94, 60);
+  beginShape();
+  vertex(905, 768);
+  bezierVertex(905, 768, 910, 720, 920, 718)
+  vertex(920, 718);
+  bezierVertex(920, 718, 945, 710, 948, 757)
+  vertex(948, 757);
+  vertex(982, 768);
+  vertex(915, 768);
+
+  endShape(CLOSE);
 }
