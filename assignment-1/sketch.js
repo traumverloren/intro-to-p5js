@@ -177,6 +177,24 @@ function draw() {
   vertex(930, 0);
   endShape(CLOSE);
 
+  fill(50, 56, 44);
+  beginShape();
+  vertex(768, 320);
+  vertex(759, 349);
+  vertex(828, 416);
+  vertex(833, 396);
+  vertex(768, 320);
+  endShape(CLOSE);
+
+  fill(66, 69, 58);
+  beginShape();
+  vertex(844, 310);
+  vertex(837, 330);
+  vertex(868, 363);
+  vertex(865, 333);
+  vertex(844, 310);
+  endShape(CLOSE);
+
   fill(60, 74, 61);
   beginShape();
   vertex(936, 303);
@@ -282,6 +300,45 @@ function draw() {
   vertex(948, 757);
   vertex(982, 768);
   vertex(915, 768);
+  endShape(CLOSE);
 
+  fill(86, 133, 105);
+  beginShape();
+  vertex(921, 718);
+  vertex(886, 721);
+  vertex(882, 768);
+  vertex(915, 768);
+  vertex(921, 718);
+  endShape(CLOSE);
+
+  fill(175, 154, 118);
+  beginShape();
+  vertex(912, 719);
+  vertex(886, 721);
+  vertex(885, 631);
+  vertex(912, 631);
+  vertex(912, 719);
+  endShape(CLOSE);
+
+  fill(90, 136, 110);
+  beginShape();
+  vertex(910, 405);
+  vertex(889, 412);
+  vertex(873, 426);
+  vertex(873, 768);
+  vertex(888, 768);
+  vertex(885, 631);
+  vertex(912, 631);
+  vertex(910, 405);
+  endShape(CLOSE);
+
+  fill(82, 81, 72);
+  beginShape();
+  vertex(891, 411);
+  vertex(852, 412);
+  vertex(850, 768);
+  vertex(873, 768);
+  vertex(873, 428);
+  vertex(891, 411);
   endShape(CLOSE);
 }
