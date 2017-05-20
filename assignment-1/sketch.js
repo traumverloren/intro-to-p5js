@@ -276,7 +276,7 @@ function draw() {
   vertex(980, 412);
   vertex(980, 768);
   vertex(945, 768);
-  vertex(940, 403);
+  vertex(940, 398);
   vertex(951, 399);
   vertex(980, 412);
   endShape(CLOSE);
@@ -284,7 +284,7 @@ function draw() {
   fill(119, 129, 112);
   beginShape();
   vertex(930, 402);
-  vertex(910, 402);
+  vertex(910, 407);
   vertex(910, 721);
   vertex(944, 733);
   vertex(940, 402);
@@ -358,5 +358,23 @@ function draw() {
   vertex(806, 768);
   vertex(828, 768);
   vertex(828, 414);
+  endShape(CLOSE);
+
+  fill(87, 129, 107);
+  beginShape();
+  vertex(766, 768);
+  vertex(761, 450);
+  vertex(752, 454);
+  vertex(749, 476);
+  vertex(686, 575);
+  vertex(673, 546);
+  vertex(660, 768);
+  vertex(665, 768);
+  bezierVertex(665, 768, 670, 720, 693, 722)
+  vertex(693, 722);
+  vertex(718, 720);
+  bezierVertex(718, 720, 743, 720, 757, 768)
+  vertex(757, 768);
+  vertex(766, 768);
   endShape(CLOSE);
 }
