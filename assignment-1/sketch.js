@@ -341,4 +341,22 @@ function draw() {
   vertex(873, 428);
   vertex(891, 411);
   endShape(CLOSE);
+
+  fill(62, 63, 49);
+  beginShape();
+  vertex(852, 413);
+  vertex(828, 414);
+  vertex(828, 768);
+  vertex(852, 768);
+  vertex(852, 413);
+  endShape(CLOSE);
+
+  fill(56, 54, 41);
+  beginShape();
+  vertex(828, 414);
+  vertex(806, 416);
+  vertex(806, 768);
+  vertex(828, 768);
+  vertex(828, 414);
+  endShape(CLOSE);
 }
