@@ -439,4 +439,34 @@ function draw() {
   vertex(590, 768);
   vertex(606, 454);
   endShape(CLOSE);
+
+  fill(42, 44, 33);
+  beginShape();
+  vertex(590, 428);
+  vertex(555, 380)
+  vertex(543, 743)
+  vertex(534, 748)
+  vertex(534, 768)
+  vertex(578, 768);
+  vertex(590, 428);
+  endShape(CLOSE);
+
+  fill(57, 58, 42);
+  beginShape();
+  vertex(544, 706);
+  vertex(457, 708);
+  vertex(463, 745);
+  vertex(534, 748)
+  vertex(543, 743)
+  vertex(544, 706);
+  endShape(CLOSE);
+
+  fill(91, 95, 89);
+  beginShape();
+  vertex(463, 745);
+  vertex(463, 768);
+  vertex(534, 768)
+  vertex(534, 748)
+  vertex(463, 745);
+  endShape(CLOSE);
 }
