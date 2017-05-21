@@ -363,18 +363,46 @@ function draw() {
   fill(87, 129, 107);
   beginShape();
   vertex(766, 768);
-  vertex(761, 450);
-  vertex(752, 454);
+  vertex(761, 447);
+  vertex(754, 454);
   vertex(749, 476);
   vertex(686, 575);
   vertex(673, 546);
   vertex(660, 768);
   vertex(665, 768);
-  bezierVertex(665, 768, 670, 720, 693, 722)
+  bezierVertex(665, 768, 660, 720, 693, 722)
   vertex(693, 722);
-  vertex(718, 720);
-  bezierVertex(718, 720, 743, 720, 757, 768)
+  vertex(727, 720);
+  bezierVertex(727, 720, 748, 720, 757, 768)
   vertex(757, 768);
   vertex(766, 768);
   endShape(CLOSE);
+
+  fill(101, 157, 144);
+  beginShape();
+  vertex(665, 768);
+  bezierVertex(665, 768, 660, 720, 693, 722)
+  vertex(693, 722);
+  vertex(727, 720);
+  bezierVertex(727, 720, 748, 720, 757, 768)
+  vertex(757, 768);
+  vertex(766, 768);
+  endShape(CLOSE);
+
+  fill(66, 91, 70);
+  beginShape();
+  vertex(759, 430);
+  vertex(738, 434);
+  vertex(733, 467);
+  vertex(728, 479);
+  vertex(720, 492);
+  vertex(673, 546);
+  vertex(686, 575);
+  vertex(749, 476);
+  vertex(754, 454);
+  vertex(761, 447);
+
+  vertex(759, 430);
+  endShape(CLOSE);
+
 }
