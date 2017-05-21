@@ -401,8 +401,42 @@ function draw() {
   vertex(749, 476);
   vertex(754, 454);
   vertex(761, 447);
-
   vertex(759, 430);
   endShape(CLOSE);
 
+  fill(57, 127, 102);
+  beginShape();
+  vertex(673, 546);
+  vertex(654, 525);
+  vertex(633, 768);
+  vertex(660, 768);
+  vertex(673, 546);
+  endShape(CLOSE);
+
+  fill(55, 60, 54);
+  beginShape();
+  vertex(654, 525);
+  vertex(627, 484);
+  vertex(613, 768);
+  vertex(633, 768);
+  vertex(654, 525);
+  endShape(CLOSE);
+
+  fill(58, 64, 52);
+  beginShape();
+  vertex(627, 484);
+  vertex(606, 454);
+  vertex(590, 768);
+  vertex(613, 768);
+  vertex(627, 484);
+  endShape(CLOSE);
+
+  fill(40, 42, 31);
+  beginShape();
+  vertex(606, 454);
+  vertex(590, 428);
+  vertex(578, 768);
+  vertex(590, 768);
+  vertex(606, 454);
+  endShape(CLOSE);
 }
