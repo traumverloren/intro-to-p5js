@@ -480,4 +480,45 @@ function draw() {
   vertex(633, 222);
   vertex(750, 420);
   endShape(CLOSE);
+
+  fill(42, 47, 34);
+  beginShape();
+  vertex(738, 434);
+  vertex(734, 464);
+  vertex(562, 228);
+  vertex(600, 225);
+  vertex(738, 434);
+  endShape(CLOSE);
+
+  fill(33, 40, 24);
+  beginShape();
+  vertex(734, 464);
+  vertex(730, 476);
+  vertex(717, 496);
+  vertex(523, 232);
+  vertex(562, 228);
+  vertex(734, 464);
+  endShape(CLOSE);
+
+  fill(140, 145, 127);
+  beginShape();
+  vertex(500, 120);
+  vertex(519, 174);
+  vertex(475, 178);
+  vertex(475, 142);
+  vertex(466, 142);
+  vertex(466, 122);
+  vertex(500, 120);
+  endShape(CLOSE);
+
+  fill(104, 105, 90);
+  beginShape();
+  vertex(519, 174);
+  vertex(475, 178);
+  vertex(475, 196);
+  bezierVertex(475, 196, 498, 193, 519, 174);
+  vertex(519, 174);
+  endShape(CLOSE);
+
+
 }
