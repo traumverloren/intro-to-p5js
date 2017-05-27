@@ -469,4 +469,15 @@ function draw() {
   vertex(534, 748)
   vertex(463, 745);
   endShape(CLOSE);
+
+  fill(57, 62, 46);
+  beginShape();
+  vertex(750, 420);
+  vertex(759, 420);
+  vertex(759, 430);
+  vertex(738, 434);
+  vertex(600, 225);
+  vertex(633, 222);
+  vertex(750, 420);
+  endShape(CLOSE);
 }
