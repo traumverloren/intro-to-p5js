@@ -549,4 +549,65 @@ function draw() {
   vertex(303, 193);
   vertex(384, 186);
   endShape(CLOSE);
+
+  fill(106, 122, 96);
+  beginShape();
+  vertex(384, 220);
+  bezierVertex(384, 220, 340, 220, 303, 193);
+  vertex(303, 193);
+  vertex(285, 195);
+  vertex(295, 265);
+  vertex(385, 265);
+  vertex(384, 220);
+  endShape(CLOSE);
+
+  fill(77, 129, 103);
+  beginShape();
+  vertex(475, 196);
+  bezierVertex(475, 196, 400, 220, 384, 220);
+  vertex(384, 220);
+  vertex(384, 186);
+  vertex(385, 265);
+  vertex(295, 265);
+  vertex(302, 323);
+  vertex(475, 323);
+  vertex(475, 196);
+  endShape(CLOSE);
+
+  fill(73, 129, 106);
+  beginShape();
+  vertex(302, 323);
+  vertex(305, 358);
+  vertex(475, 352);
+  vertex(475, 323);
+  vertex(302, 323);
+  endShape(CLOSE);
+
+  fill(71, 89, 73);
+  beginShape();
+  vertex(474, 352);
+  vertex(305, 358);
+  vertex(308, 388);
+  vertex(475, 388);
+  vertex(475, 352);
+  endShape(CLOSE);
+
+  fill(64, 81, 65);
+  beginShape();
+  vertex(475, 388);
+  vertex(308, 388);
+  vertex(310, 420);
+  vertex(475, 428);
+  vertex(475, 388);
+  endShape(CLOSE);
+
+  // connects to triangles
+  fill(39, 42, 31);
+  beginShape();
+  vertex(310, 420);
+  vertex(303, 425);
+  vertex(315, 445);
+  vertex(475, 450);
+  vertex(475, 428);
+  endShape(CLOSE);
 }
