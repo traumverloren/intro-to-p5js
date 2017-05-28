@@ -19,19 +19,19 @@ function draw() {
   triangle(110, 750, 153, 690, 180, 759);
 
   fill(58, 133, 103);
-  rect(286, 590, 77, 160);
+  rect(282, 589, 77, 169);
 
   fill(60, 68, 50);
-  rect(205, 595, 22, 160);
+  rect(203, 589, 24, 172);
 
   fill(70, 84, 61);
-  rect(227, 595, 30, 160);
+  rect(227, 589, 30, 165);
 
   fill(77, 97, 78);
-  rect(257, 595, 29, 160);
+  rect(257, 589, 25, 165);
 
   stroke(1, 50);
-  line(326, 610, 326, 730);
+  line(326, 591, 326, 753);
 
   stroke(10, 30);
   fill(197, 206, 187);
@@ -710,6 +710,15 @@ function draw() {
   vertex(186, 346);
   endShape(CLOSE);
 
+  fill(58, 138, 105);
+  beginShape();
+  vertex(208, 312);
+  vertex(217, 296);
+  vertex(350,504)
+  vertex(324,507)
+  vertex(208, 312);
+  endShape(CLOSE);
+
   // 2nd diamond at top of triangle
   fill(119, 175, 151);
   beginShape();
@@ -750,6 +759,14 @@ function draw() {
   vertex(216, 400);
   endShape(CLOSE);
 
+  fill(191, 179, 156);
+  beginShape();
+  vertex(150, 518);
+  vertex(186, 455);
+  vertex(224, 518);
+  vertex(150, 518);
+  endShape(CLOSE);
+
   fill(127, 171, 151);
   beginShape();
   vertex(194, 480);
@@ -758,5 +775,99 @@ function draw() {
   vertex(190, 500);
   vertex(190, 490);
   vertex(194, 480);
+  endShape(CLOSE);
+
+  fill(46, 49, 35);
+  beginShape();
+  vertex(350, 504);
+  vertex(324, 507);
+  vertex(325, 560);
+  vertex(368, 505);
+  vertex(350, 504);
+  endShape(CLOSE);
+
+  fill(61, 80, 60);
+  beginShape();
+  vertex(385, 483);
+  vertex(396, 501);
+  vertex(325, 590);
+  vertex(325, 560);
+  vertex(385,483);
+  endShape(CLOSE);
+
+  fill(68, 106, 93);
+  beginShape();
+  vertex(396, 501);
+  vertex(458, 598);
+  vertex(360, 602);
+  vertex(325, 590);
+  vertex(396, 501);
+  endShape(CLOSE);
+
+  fill(52, 137, 127);
+  beginShape();
+  vertex(368, 588);
+  vertex(395, 545);
+  vertex(413, 578);
+  vertex(401, 579);
+  vertex(397, 588)
+  vertex(368, 588);
+  endShape(CLOSE);
+
+  fill(72, 95, 87);
+  beginShape();
+  vertex(360, 602);
+  vertex(368, 588);
+  vertex(397, 588)
+  vertex(428, 599);
+  vertex(430, 752);
+  vertex(360, 754);
+  vertex(360, 602);
+  endShape(CLOSE);
+
+  fill(69, 133, 115);
+  beginShape();
+  vertex(458, 598);
+  vertex(461, 610);
+  vertex(462, 742);
+  vertex(430, 752);
+  vertex(428, 599);
+  vertex(458, 598);
+  endShape(CLOSE);
+
+  fill(83, 130, 118);
+  beginShape();
+  vertex(462, 742);
+  vertex(463, 768);
+  vertex(429, 768);
+  vertex(430, 752);
+  vertex(462, 742);
+  endShape(CLOSE);
+
+  fill(62, 70, 57);
+  beginShape();
+  vertex(430, 752);
+  vertex(429, 768);
+  vertex(327, 768);
+  vertex(327, 753);
+  vertex(430, 752);
+  endShape(CLOSE);
+
+  fill(151, 174, 159);
+  beginShape();
+  vertex(327, 753);
+  vertex(327, 768);
+  vertex(227, 768);
+  vertex(227, 754);
+  vertex(327, 753);
+  endShape(CLOSE);
+
+  fill(90, 123, 106);
+  beginShape();
+  vertex(227, 754);
+  vertex(227, 768);
+  vertex(204, 768);
+  vertex(204, 760);
+  vertex(227, 754);
   endShape(CLOSE);
 }
