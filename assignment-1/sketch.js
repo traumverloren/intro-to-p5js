@@ -19,7 +19,7 @@ function draw() {
   triangle(110, 750, 153, 690, 180, 759);
 
   fill(58, 133, 103);
-  rect(205, 595, 158, 160);
+  rect(286, 590, 77, 160);
 
   fill(60, 68, 50);
   rect(205, 595, 22, 160);
@@ -605,8 +605,8 @@ function draw() {
   fill(39, 42, 31);
   beginShape();
   vertex(310, 420);
-  vertex(303, 425);
-  vertex(315, 445);
+  vertex(301, 425);
+  vertex(313, 445);
   vertex(475, 450);
   vertex(475, 428);
   endShape(CLOSE);
@@ -633,12 +633,130 @@ function draw() {
   beginShape();
   vertex(233, 199);
   vertex(203, 201);
-  vertex(185, 244);
+  vertex(183, 244);
   vertex(210, 285);
   vertex(298, 290);
   vertex(295, 265);
   vertex(236, 262);
-
   vertex(233, 199);
+  endShape(CLOSE);
+
+  // diamond at top of triangle
+  fill(75, 80, 63);
+  beginShape();
+  vertex(183, 244);
+  vertex(217, 296);
+  vertex(186, 346);
+  vertex(156, 296);
+  vertex(183, 244);
+  endShape(CLOSE);
+
+  // 2nd green strip to right of triangle
+  fill(83, 145, 108);
+  beginShape();
+  vertex(203, 203);
+  vertex(22, 580);
+  vertex(0, 571);
+  vertex(0, 497);
+  vertex(70, 375);
+  bezierVertex(70, 375, 80, 340, 100, 320);
+  vertex(100, 320);
+  vertex(125, 280);
+  bezierVertex(125, 280, 133, 245, 124, 209);
+  vertex(125, 208);
+  vertex(203, 203);
+  endShape(CLOSE);
+
+  fill(78, 101, 77);
+  beginShape();
+  vertex(0, 497);
+  vertex(70, 375);
+  bezierVertex(70, 375, 80, 340, 100, 320);
+  vertex(100, 320);
+  vertex(125, 280);
+  bezierVertex(125, 280, 133, 245, 124, 209);
+  vertex(125, 208);
+  vertex(0, 416);
+  vertex(0, 497);
+  endShape(CLOSE);
+
+  fill(62, 74, 49);
+  beginShape();
+  vertex(125, 208);
+  vertex(0, 416);
+  vertex(0, 297);
+  vertex(63, 213);
+  vertex(125, 208);
+  endShape(CLOSE);
+
+  // 2nd diamond at top of triangle
+  fill(107, 128, 107);
+  beginShape();
+  vertex(158, 298);
+  vertex(186, 346);
+  vertex(160, 395);
+  vertex(132, 352);
+  vertex(158, 298);
+  endShape(CLOSE);
+
+  // right of triangle green piece
+  fill(92, 147, 120);
+  beginShape();
+  vertex(186, 346);
+  vertex(217, 296);
+  vertex(350,504)
+  vertex(324,507)
+  vertex(325,590)
+  vertex(186, 346);
+  endShape(CLOSE);
+
+  // 2nd diamond at top of triangle
+  fill(119, 175, 151);
+  beginShape();
+  vertex(132, 352);
+  vertex(160, 395);
+  vertex(91, 518);
+  vertex(284, 518);
+  vertex(325,590)
+  vertex(22, 580);
+  vertex(132, 352);
+  endShape(CLOSE);
+
+  // 2nd diamond at top of triangle
+  fill(111, 139, 124);
+  beginShape();
+  vertex(284, 518);
+  vertex(325, 590)
+  vertex(261, 588);
+  vertex(232, 519);
+  vertex(284, 518);
+  endShape(CLOSE);
+
+  // triangle
+  fill(209, 194, 155);
+  beginShape();
+  vertex(186, 346);
+  vertex(284, 518);
+  vertex(91, 518);
+  vertex(186, 346);
+  endShape(CLOSE);
+
+  // inner triangle
+  fill(199, 183, 157);
+  beginShape();
+  vertex(216, 400);
+  vertex(284, 518);
+  vertex(150, 518);
+  vertex(216, 400);
+  endShape(CLOSE);
+
+  fill(127, 171, 151);
+  beginShape();
+  vertex(194, 480);
+  vertex(205, 480);
+  vertex(210, 499);
+  vertex(190, 500);
+  vertex(190, 490);
+  vertex(194, 480);
   endShape(CLOSE);
 }
