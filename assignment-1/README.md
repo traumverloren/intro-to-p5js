@@ -12,6 +12,7 @@ You must also use the `stroke()`, `fill()`, and `background()`` functions in you
 
 ![Dream City by Paul Klee, Cropped](DreamCityCropped.png)
 
-#### And...
+#### And my final sketch:
 
-[My final P5*JS sketch](https://stephanie.lol/intro-to-p5js/assignment-1/)
+![Dream City by Paul Klee, Sketched using P5*JS](final_sketch.png)
+[See it here.](https://stephanie.lol/intro-to-p5js/assignment-1/)
