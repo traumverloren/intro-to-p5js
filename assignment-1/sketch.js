@@ -610,4 +610,35 @@ function draw() {
   vertex(475, 450);
   vertex(475, 428);
   endShape(CLOSE);
+
+  fill(69, 141, 93);
+  beginShape();
+  vertex(285, 195);
+  vertex(255, 197);
+  vertex(260, 263);
+  vertex(295, 265);
+  vertex(285, 195);
+  endShape(CLOSE);
+
+  fill(80, 94, 69);
+  beginShape();
+  vertex(255, 197);
+  vertex(233, 199);
+  vertex(236, 262);
+  vertex(260, 263);
+  vertex(255, 197);
+  endShape(CLOSE);
+
+  fill(69, 73, 50);
+  beginShape();
+  vertex(233, 199);
+  vertex(203, 201);
+  vertex(185, 244);
+  vertex(210, 285);
+  vertex(298, 290);
+  vertex(295, 265);
+  vertex(236, 262);
+
+  vertex(233, 199);
+  endShape(CLOSE);
 }
