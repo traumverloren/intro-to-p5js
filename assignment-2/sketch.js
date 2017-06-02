@@ -11,8 +11,18 @@ function draw() {
 
   var gray = frameCount % 128;
 
+  // top left quadrant
+  for (var x = 50; x <= (windowWidth/2)-50; x += 50) {
+    noStroke();
+    fill(gray);
+    for (var y = 50; y <= (windowHeight/2)-50; y += 50) {
+      ellipse(x, y, 25, 25);
+    }
+    noFill();
+  }
+
   // top right quadrant
-  for (var x = 50; x <= (windowWidth-50); x += 50) {
+  for (var x = (windowWidth/2)-20; x <= (windowWidth-40); x += 50) {
     noStroke();
     fill(gray);
     for (var y = 50; y <= (windowHeight/2)-50; y += 50) {
@@ -25,7 +35,7 @@ function draw() {
   for (var x = 50; x <= (windowWidth/2)-50; x += 50) {
     stroke(gray);
     strokeWeight(10);
-    for (var y = 50; y <= (windowHeight-50); y += 50) {
+    for (var y = (windowHeight/2); y <= (windowHeight-50); y += 50) {
       line(x-7, y-7, x+7, y+7);
       line(x+7, y-7, x-7, y+7);
     }
@@ -33,10 +43,10 @@ function draw() {
   }
 
   // bottom right quadrant
-  for (var x = (windowWidth/2); x <= (windowWidth-50); x += 50) {
+  for (var x = (windowWidth/2); x <= (windowWidth-40); x += 50) {
     strokeWeight(0);
     fill(gray);
-    for (var y = windowHeight/2; y <= (windowHeight-50); y += 50) {
+    for (var y = (windowHeight/2)+10; y <= (windowHeight-40); y += 50) {
       rect(x-35, y-20, 25, 25);
       console.log(x,y);
     }
