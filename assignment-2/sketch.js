@@ -9,10 +9,12 @@ function draw() {
   background(255);
   angle += 0.02;
 
+  var grayscaleTransition = 127+127*sin(angle);
+
   // top left quadrant
   for (var x = 50; x <= (windowWidth/2)-50; x += 50) {
     noStroke();
-    fill(127+127*sin(angle));
+    fill(grayscaleTransition);
     for (var y = 50; y <= (windowHeight/2)-50; y += 50) {
       ellipse(x, y, 25, 25);
     }
@@ -22,7 +24,7 @@ function draw() {
   // top right quadrant
   for (var x = (windowWidth/2)-20; x <= (windowWidth-40); x += 50) {
     noStroke();
-    fill(127+127*sin(angle));
+    fill(grayscaleTransition);
     for (var y = 50; y <= (windowHeight/2)-50; y += 50) {
       triangle(x, y-20, x+20, y+20, x-20, y);
     }
@@ -31,7 +33,7 @@ function draw() {
 
   // bottom left quadrant
   for (var x = 50; x <= (windowWidth/2)-50; x += 50) {
-    stroke(127+127*sin(angle));
+    stroke(grayscaleTransition);
     strokeWeight(10);
     for (var y = (windowHeight/2); y <= (windowHeight-30); y += 50) {
       line(x-7, y-7, x+7, y+7);
@@ -43,7 +45,7 @@ function draw() {
   // bottom right quadrant
   for (var x = (windowWidth/2); x <= (windowWidth-30); x += 50) {
     strokeWeight(0);
-    fill(127+127*sin(angle));
+    fill(grayscaleTransition);
     for (var y = (windowHeight/2)+10; y <= (windowHeight-30); y += 50) {
       rect(x-35, y-20, 25, 25);
     }
