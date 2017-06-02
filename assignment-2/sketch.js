@@ -1,20 +1,18 @@
-var framesPerSecond = 256;
+var angle = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noFill();
-  frameRate(framesPerSecond);
 }
 
 function draw() {
   background(255);
-
-  var gray = frameCount % 128;
+  angle += 0.02;
 
   // top left quadrant
   for (var x = 50; x <= (windowWidth/2)-50; x += 50) {
     noStroke();
-    fill(gray);
+    fill(127+127*sin(angle));
     for (var y = 50; y <= (windowHeight/2)-50; y += 50) {
       ellipse(x, y, 25, 25);
     }
@@ -24,7 +22,7 @@ function draw() {
   // top right quadrant
   for (var x = (windowWidth/2)-20; x <= (windowWidth-40); x += 50) {
     noStroke();
-    fill(gray);
+    fill(127+127*sin(angle));
     for (var y = 50; y <= (windowHeight/2)-50; y += 50) {
       triangle(x, y-20, x+20, y+20, x-20, y);
     }
@@ -33,9 +31,9 @@ function draw() {
 
   // bottom left quadrant
   for (var x = 50; x <= (windowWidth/2)-50; x += 50) {
-    stroke(gray);
+    stroke(127+127*sin(angle));
     strokeWeight(10);
-    for (var y = (windowHeight/2); y <= (windowHeight-50); y += 50) {
+    for (var y = (windowHeight/2); y <= (windowHeight-30); y += 50) {
       line(x-7, y-7, x+7, y+7);
       line(x+7, y-7, x-7, y+7);
     }
@@ -43,25 +41,12 @@ function draw() {
   }
 
   // bottom right quadrant
-  for (var x = (windowWidth/2); x <= (windowWidth-40); x += 50) {
+  for (var x = (windowWidth/2); x <= (windowWidth-30); x += 50) {
     strokeWeight(0);
-    fill(gray);
-    for (var y = (windowHeight/2)+10; y <= (windowHeight-40); y += 50) {
+    fill(127+127*sin(angle));
+    for (var y = (windowHeight/2)+10; y <= (windowHeight-30); y += 50) {
       rect(x-35, y-20, 25, 25);
-      console.log(x,y);
     }
     noFill();
   }
-
-  //
-  // for (var x = 50; x <= width-50; x += 50) {
-  //   for (var y = 50; y <= height-50; y += 50) {
-  //     var randX = random(-x, x);
-  //     var randY = random(-y, y);
-  //     ellipse(randX, randY, 20, 20);
-  //   }
-  // }
-
-  // fill(255);
-  // ellipse(width/2, height/2, 100, 100);
 }
