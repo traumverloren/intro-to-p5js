@@ -18,6 +18,18 @@ function draw() {
   angle += 0.02;
   var grayscaleTransition = 127+127*sin(angle);
 
+  // var count = 0;
+  // for (var x = 50; x <= (windowWidth-50); x += 50) {
+  //   for (var y = 50; y <= (windowHeight-50); y += 50) {
+  //     stroke(240)
+  //     strokeWeight(count+0.02);
+  //     point(x,y)
+  //     console.log(count)
+  //
+  //     count++;
+  //   }
+  // }
+
   // fading background
   a++;
   if(a > width) {
@@ -80,4 +92,5 @@ function draw() {
       rect(x-35, y-17, 15, 15);
     }
   }
+
 }
