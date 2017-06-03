@@ -12,9 +12,8 @@ Requirements:
     - Use builtin shape functions: `line()`, `ellipse()`, `rect()`, `arc()`, `vertex()`, etc.
   - Use only Grayscale
   - Use a color with an alpha less than 255
-Use a transparent grayscale value for your `stroke()`, `fill()`, `background()`, or `color()` values.
+  - Use a transparent grayscale value for your `stroke()`, `fill()`, `background()`, or `color()` values.
 
 #### And my final sketch:
 
-*WIP!*
 [See it here.](https://stephanie.lol/intro-to-p5js/assignment-2/)
