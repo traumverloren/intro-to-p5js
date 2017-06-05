@@ -33,7 +33,7 @@ function draw() {
   background(255)
   stroke(0);
   strokeWeight(1);
-  fill(grayscaleTransition);
+  fill(grayscaleTransition, 32);
   for (var x = 50; x <= (windowWidth/2)-50; x += 50) {
     for (var y = 50; y <= (windowHeight/2)-50; y += 50) {
       ellipse(x, y, size, size);
