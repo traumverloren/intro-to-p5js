@@ -2,7 +2,7 @@ var song;
 var amplitude;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1024, 768);
   colorMode(RGB, 255);
   noFill();
 
